@@ -21,19 +21,19 @@ public class Pizza {
         basePizzaPrice = this.price;
     }
 
-    public void AddExtraCheese(){
+    public void addExtraCheese(){
         extraCheese = true;
 //        System.out.println("Extra Cheese Added");
         this.price += extraCheesePrice;
     }
 
-    public void AddExtraToppings(){
+    public void addExtraToppings(){
         extraTopping = true;
 //        System.out.println("Extra Toppings Added");
         this.price += extraToppingPrice;
     }
 
-    public void Packaging(){
+    public void packaging(){
         packaging = true;
 //        System.out.println("Take Away Opted");
         this.price += packagingPrice;

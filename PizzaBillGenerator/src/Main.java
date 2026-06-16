@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
         Pizza basePizza = new Pizza(false);
-        basePizza.AddExtraCheese();
-        basePizza.AddExtraToppings();
-        basePizza.Packaging();
+        basePizza.addExtraCheese();
+        basePizza.addExtraToppings();
+        basePizza.packaging();
         basePizza.getBill();
 
         LoadedPizza pizza = new LoadedPizza(true);
